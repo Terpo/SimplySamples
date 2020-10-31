@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "top": "waterworks:models/template",
+        "side": "waterworks:models/template",
+        "bottom": "waterworks:models/template"
+    }
+}
