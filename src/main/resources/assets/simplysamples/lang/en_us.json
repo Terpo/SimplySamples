@@ -1,2 +1,16 @@
 {
+  "block.simplysamples.aluminum_sample": "Aluminum Sample",
+  "block.simplysamples.coal_sample": "Coal Sample",
+  "block.simplysamples.copper_sample": "Copper Sample",
+  "block.simplysamples.diamond_sample": "Diamond Sample",
+  "block.simplysamples.emerald_sample": "Emerald Sample",
+  "block.simplysamples.gold_sample": "Gold Sample",
+  "block.simplysamples.iron_sample": "Iron Sample",
+  "block.simplysamples.lead_sample": "Lead Sample",
+  "block.simplysamples.nickel_sample": "Nickel Sample",
+  "block.simplysamples.osmium_sample": "Osmium Sample",
+  "block.simplysamples.silver_sample": "Silver Sample",
+  "block.simplysamples.tin_sample": "Tin Sample",
+  "block.simplysamples.uranium_sample": "Uranium Sample",
+  "itemGroup.simplysamples": "Simply Samples"
 }

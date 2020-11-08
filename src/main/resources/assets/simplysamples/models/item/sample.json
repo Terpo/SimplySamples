@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "simplysamples:item/sample",
+        "layer1": "simplysamples:item/sample_overlay"
+    }
+}
