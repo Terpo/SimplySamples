@@ -16,6 +16,8 @@ public class RegistryNames {
 		oreMap.put("diamond", Integer.valueOf(0x65f5e3));
 		oreMap.put("emerald", Integer.valueOf(0x17dd62));
 		oreMap.put("gold", Integer.valueOf(0xfcee4b));
+		oreMap.put("redstone", Integer.valueOf(0xaa0404));
+		oreMap.put("lapis_lazuli", Integer.valueOf(0x1034bd));
 		oreMap.put("aluminum", Integer.valueOf(0x856250));
 		oreMap.put("lead", Integer.valueOf(0x39333c));
 		oreMap.put("silver", Integer.valueOf(0xa9b5bc));

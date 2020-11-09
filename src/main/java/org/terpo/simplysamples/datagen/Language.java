@@ -1,5 +1,8 @@
 package org.terpo.simplysamples.datagen;
 
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 import org.terpo.simplysamples.RegistryNames;
 import org.terpo.simplysamples.SimplySamples;
 
@@ -26,8 +29,9 @@ public class Language extends LanguageProvider {
 	}
 
 	private String createLocale(Block block) {
-		String replaceSample = block.getRegistryName().getPath().replace(RegistryNames.SAMPLE_SUFFIX, " Sample");
-		return replaceSample.substring(0, 1).toUpperCase() + replaceSample.substring(1); //first letter to upper case
+		String[] replaceSample = block.getRegistryName().getPath().split("_");
+		//stream through everything and uppercase every first letter
+		return Stream.of(replaceSample).map(string -> string.substring(0, 1).toUpperCase() + string.substring(1)).collect(Collectors.joining(" "));
 	}
 
 }
