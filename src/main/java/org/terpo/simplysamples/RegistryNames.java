@@ -26,7 +26,16 @@ public class RegistryNames {
 		oreMap.put("nickel", Integer.valueOf(0x98a098));
 		oreMap.put("uranium", Integer.valueOf(0x57744b));
 		oreMap.put("osmium", Integer.valueOf(0x8dafba));
+		
 		oreMap.put("zinc", Integer.valueOf(0xd0c6a3));
+		
+		oreMap.put("certus_quartz", Integer.valueOf(0xa1bddb));
+		oreMap.put("apatite", Integer.valueOf(0x2ebbcf));
+		oreMap.put("cinnabar", Integer.valueOf(0x9c1c2a));
+		oreMap.put("niter", Integer.valueOf(0xe7e2e2));
+		oreMap.put("sulfur", Integer.valueOf(0xe3d167));
+		oreMap.put("fluorite", Integer.valueOf(0xd6aedd));
+		
 		return oreMap;
 	}
 
